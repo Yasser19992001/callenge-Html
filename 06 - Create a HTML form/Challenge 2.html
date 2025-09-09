@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>All common HTML</h1>
+    <form>
+    <fieldset>
+      <legend>Basic</legend>
+        <label for="username">Full name:</label>
+        <input type="text" name="username" id="username"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password"><br><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone"><br><br>
+        <label for="search">Search:</label>
+        <input type="search" name="search" id="search"><br><br>
+        <label for="website">Url:</label>
+        <input type="url" name="website" id="website"><br><br>
+        </fieldset>
+        <fieldset>
+        <legend>Number&Sliders</legend>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" min="o" max="45"><br><br>
+        <label for="volume">Range (0-100):</label>
+        <input type="range" name="volume" id="volume"><br><br>
+        </fieldset>
+        <fieldset>
+        <legend>Time&Date</legend>
+
+        <label for="birthdate">Date:</label>
+        <input type="date" name="birthdate" id="birthdate"><br><br>
+        <label for="Time">Time:</label>
+        <input type="time" name="time" id="time"><br><br>
+        <label for="appoitment">Datetime:</label>
+        <input type="appoitment" name="appoitment" id="appoitment"><br><br>
+
+        <label for="month">Month:</label>
+        <input type="month" name="month" id="month"><br><br>
+
+        <label for="week">Week:</label>
+        <input type="week" name="week" id="week"><br><br>
+        </fieldset>
+        <fieldset>
+          <legend>Choices</legend>
+        <hr>
+      <label>Radio (plan):</label>
+        <input type="radio" name="plan" id="basic" volume="basic">
+        <label for="basic">Basic</label>
+        <input type="radio" name="plan" id="pre" volume="pre">
+        <label for="pre">Pre</label>
+        <input type="radio" name="plan" id="interprise" volume="interprise">
+        <label for="interprise">Interprise</label>
+        <br><br>
+        <label>Checkbox:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
+    <label for="subscribe">Subscribe to updates</label>
+    <input type="checkbox" id="terms" name="terms" value="agree">
+    <label for="terms">I agree to the terms</label>
+    <br><br>
+    <label>Select(not input, but common)</label>
+     <label for="options">Options:</label>
+    <select id="options" name="options">
+      <option value="">-- Choose --</option>
+      <option value="basic">Basic</option>
+      <option value="pre">Pre</option>
+      <option value="enterprise">Enterprise</option>
+    </select>
+        </fieldset>
+        <fieldset>
+          <legend>Textarea&Datelist</legend>
+    
+    
+          <label>Textarea</label>
+          <br>
+    <textarea id="message" name="message" rows="4" cols="50" placeholder="Write something..."></textarea><br>
+    <label for="country"> Text with datelist Country:</label>
+    <select id="country" name="country">
+      <option value="">-- Choose --</option>
+      <option value="sudan">Sudan</option>
+      <option value="rwanda">Rwanda</option>
+      <option value="uganda">Uganda</option>
+      <option value="kenya">Kenya</option>
+    </select>
+        </fieldset>
+        <fieldset>
+          <legend>Colors&File</legend>
+           <label for="favcolor">Color:</label>
+    <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+    <br>
+    <label>File Upload:</label>
+    <input type="file" id="fileupload" name="fileupload">
+    <br><br>
+        </fieldset>
+        <fieldset>
+          <legend>Hidden&Readonly</legend>
+          <label>Read-only:</label>
+          <input type="hidden" name="hidden" id="hidden" value="12345">
+        </fieldset>
+<form>
+  <!-- Hidden input -->
+  <input type="hidden" name="hiddenField" value="secretValue">
+
+  <!-- Readonly input -->
+  <label>
+    Readonly Input:
+    <input type="text" name="readonlyField" value="Can't edit me" readonly>
+  </label>
+  <br><br>
+  <label>
+    Disabled Input:
+    <input type="text" name="disabledField" value="Can't touch me" disabled>
+  </label>
+  <br><br>
+  <button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+  <button type="button">Plain Button</button>
+</form>
+
+</body>
+</html>
+
+
+</body>
+</html>
